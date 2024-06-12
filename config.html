@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clickable Polygon Map</title>
+  <title>Map Navigator</title>
   <!-- Include Leaflet CSS and JS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -25,17 +25,17 @@
   var geojsonFeature = {
     "type": "Feature",
     "properties": {
-      "name": "Region A",
+      "name": "New England",
       "url": "https://example.com/region-a"
     },
     "geometry": {
       "type": "Polygon",
       "coordinates": [
         [
-          [-0.1318359375, 51.481382896100975],
-          [-0.1215362548828125, 51.503718891823975],
-          [-0.113983154296875, 51.4936744617406],
-          [-0.1318359375, 51.481382896100975]
+          [40, -66],
+          [47, -75],
+          [40, -70],
+          [47, -66]
         ]
       ]
     }
